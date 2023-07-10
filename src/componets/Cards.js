@@ -142,10 +142,10 @@ function Cards() {
           <div className={styles.linkedin}>
             <SocialIcon url="https://linkedin.com/in/jaketrent" />
             <p>LinkedIn</p>
-            <span>LinkedIn.com</span>
+            <span className={styles.twitter_user}>LinkedIn.com</span>
             <br />
           </div>
-        </div>
+        </div>     
       </div>
     </main>
   );
