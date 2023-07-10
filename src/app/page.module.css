@@ -9,6 +9,7 @@
     "aside main";
   height: 100vh;
   margin-top: 50px;
+
 }
 .aside {
   grid-area: aside;
@@ -144,7 +145,9 @@
 .card:nth-child(3) {
   grid-area: card3;
 }
-
+.beautify_heading{
+  color: rgb(29, 155, 240);
+}
 .beautify {
   border: 1px solid black;
   padding: 20px;
@@ -160,10 +163,16 @@
   width: 50px;
   height: 50px;
 }
+.figma_link{
+  color: white;
+  text-decoration: none;
+}
 .behnace_shot {
   width: 100px;
   height: 150px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
   border: 0.1px solid rgb(225, 219, 219);
   padding: 20px;
@@ -171,7 +180,7 @@
   box-shadow: 0 0 2px whitesmoke;
 }
 .visuals {
-  width: 100px;
+  width: 500px;
   height: 150px;
 }
 .figma_btn {
@@ -243,6 +252,6 @@
 }
 .profile{
   border-radius: 100%;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }

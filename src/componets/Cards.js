@@ -5,6 +5,7 @@ import { FaTwitterSquare, FaGithubSquare, FaHashnode } from "react-icons/fa";
 import { SocialIcon } from "react-social-icons";
 import movie from "../images/movie.jpg";
 import dotandkey from "../images/dot&key.jpg";
+import skin from "../images/skin_care.jpg";
 import coraline from "../images/coraline_github.jpg";
 import behance from "../images/behnace_visuals.jpg";
 import form from "../images/dribble_form.jpg";
@@ -41,8 +42,8 @@ function Cards() {
         <div className={styles.coraline_card}>
           <SocialIcon network="github" />
           <p>
-            Welcome to Coraline.css - A Lightweight CSS Library for Rapid Web
-            Development.
+            Coraline.CSS, Built using pure scss - A Lightweight CSS Library for
+            Rapid Web Development.
           </p>
           <div className={styles.library_cards}>
             <Image src={coraline} alt="" className={styles.coraline_github} />
@@ -71,17 +72,25 @@ function Cards() {
               <div className={styles.beautify_header}>
                 <Image src={figma} alt="" className={styles.figma_icon} />
 
-                <button className={styles.figma_btn}>Figma</button>
+                <button className={styles.figma_btn}>
+                  {" "}
+                  <a
+                    href="https://www.figma.com/file/i8r0WGSTu6feu6VdV2EZ9g/Beautify?type=design&node-id=0-1&mode=design&t=axIebholu9QeF1hV-0"
+                    target="_blank"
+                    className={styles.figma_link}
+                  >
+                    Figma
+                  </a>
+                </button>
               </div>
 
-              <p>Beautify</p>
-              <p>Help you to start your skin care journey</p>
+              <h4 className={styles.beautify_heading}>Beautify</h4>
+              <p>
+                Begin your skincare journey and unlock the secrets to healthy
+                and glowing skin with our easy-to-use app.
+              </p>
               <div className={styles.behnace_shot}>
-                <Image src={movie} alt="" className={styles.visuals} />
-                <Image src={movie} alt="" className={styles.visuals} />
-                <Image src={movie} alt="" className={styles.visuals} />
-                <Image src={movie} alt="" className={styles.visuals} />
-                <Image src={movie} alt="" className={styles.visuals} />
+                <Image src={skin} alt="" className={styles.visuals} />
               </div>
             </div>
           </div>
