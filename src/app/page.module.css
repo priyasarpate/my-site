@@ -286,11 +286,13 @@
   .main_overview {
     display: grid;
     grid-template-columns: 1fr;
+    place-items: center;
   }
   .social_card {
     display: grid;
     grid-template-columns: 170px 170px;
     margin-top: 30px;
+    place-items: center;
   }
   .twitter {
     width: 110px;
@@ -306,6 +308,7 @@
   .blogs_card {
     display: grid;
     grid-template-columns: 170px 170px;
+    place-items: center;
   }
   .coraline_card {
     width: 280px;
@@ -324,6 +327,7 @@
       "card3";
     grid-gap: 20px;
     height: auto;
+    place-items: center;
   }
   .card {
     border-radius: 4px;
