@@ -82,7 +82,6 @@
 .twitter_link {
   text-decoration: none;
   color: darkgray;
-
 }
 .twitter_btn {
   border-radius: 9999px;
@@ -313,6 +312,10 @@
   .github {
     width: 110px;
     height: auto;
+  }
+  .github_btn {
+    padding: 5px 12px;
+    border: 1px gray;
   }
   .blogs_card {
     display: grid;
