@@ -65,7 +65,7 @@ function Cards() {
             <button className={styles.github_btn}>
               {" "}
               <a
-                href="https://twitter.com/priyasarpate"
+                href="https://github.com/priyasarpate/"
                 target="_blank"
                 className={styles.link}
               >
