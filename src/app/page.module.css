@@ -316,6 +316,7 @@
   .github_btn {
     padding: 5px 12px;
     border: 1px gray;
+    border-radius: 3px;
   }
   .blogs_card {
     display: grid;
