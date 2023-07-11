@@ -25,7 +25,16 @@ function Cards() {
               className={styles.twitter_icon}
             />
             <p className={styles.twitter_name}>Twitter</p>
-            <span className={styles.twitter_user}>@priyasarpate</span>
+            <span className={styles.twitter_user}>
+              {" "}
+              <a
+                href="https://twitter.com/priyasarpate"
+                target="_blank"
+                className={styles.twitter_link}
+              >
+                @priyasarpate
+              </a>
+            </span>
             <button className={styles.twitter_btn}>
               <b>follow</b> 1.1k
             </button>
@@ -34,16 +43,33 @@ function Cards() {
           <div className={styles.github}>
             <SocialIcon network="github" />
             <p className={styles.twitter_name}>Github</p>
-            <span className={styles.twitter_user}>@priyasarpate</span>
+            <span className={styles.twitter_user}>
+              <a
+                href="https://github.com/priyasarpate/"
+                target="_blank"
+                className={styles.twitter_link}
+              >
+                @priyasarpate
+              </a>
+            </span>
             <br />
             <button className={styles.github_btn}>follow</button>
           </div>
         </div>
         <div className={styles.coraline_card}>
-          <SocialIcon network="github" />
+          <SocialIcon
+            network="github"
+            url="https://github.com/priyasarpate/coraline.css"
+          />
           <p>
-            Coraline.CSS, Built using pure scss - A Lightweight CSS Library for
-            Rapid Web Development.
+            <a
+              href="https://github.com/priyasarpate/coraline.css"
+              target="_blank"
+              className={styles.link}
+            >
+              Coraline.CSS, Built using pure scss - A Lightweight CSS Library
+              for Rapid Web Development.
+            </a>
           </p>
           <div className={styles.library_cards}>
             <Image src={coraline} alt="" className={styles.coraline_github} />
@@ -53,12 +79,29 @@ function Cards() {
         <div className={styles.blogs_card}>
           <div className={styles.hash}>
             <SiHashnode className={styles.hash_icon} />
-            <p className={styles.blog_name}>JS Rest&Spread operator..</p>
+            <p className={styles.blog_name}>
+              <a
+                href="https://priyasarpate.hashnode.dev/lets-understand-the-spread-and-rest-operator-in-javascript"
+                target="_blank"
+                className={styles.link}
+              >
+                {" "}
+                JS Rest&Spread operator..
+              </a>
+            </p>
             <span className={styles.hash_com}>hashnode.com</span>
           </div>
           <div className={styles.hash}>
             <SiHashnode className={styles.hash_icon} />
-            <p className={styles.blog_name}>Responsive Layout Without..</p>
+            <p className={styles.blog_name}>
+              <a
+                href="https://priyasarpate.hashnode.dev/how-to-create-a-responsive-layout-without-media-queries"
+                target="_blank"
+                className={styles.link}
+              >
+                Responsive Layout Without..
+              </a>
+            </p>
             <span className={styles.hash_com}>hashnode.com</span>
           </div>
         </div>
@@ -98,17 +141,42 @@ function Cards() {
           <div className={styles.projects}>
             <div className={styles.github_projects}>
               <SocialIcon network="github" />
-              <p className={styles.project_name}>Covid19 Tracker</p>
+              <p className={styles.project_name}>
+                {" "}
+                <a
+                  href="https://github.com/priyasarpate/covid19"
+                  target="_blank"
+                  className={styles.link}
+                >
+                  Covid19 Tracker
+                </a>
+              </p>
               <span className={styles.twitter_user}>github.com</span>
             </div>
             <div className={styles.github_projects}>
               <SocialIcon network="github" />
-              <p className={styles.project_name}>Movie Expo</p>
+              <p className={styles.project_name}>
+                <a
+                  href="https://github.com/priyasarpate/movie-expo"
+                  target="_blank"
+                  className={styles.link}
+                >
+                  Movie Expo
+                </a>
+              </p>
               <span className={styles.twitter_user}>github.com</span>
             </div>
             <div className={styles.github_projects}>
               <SocialIcon network="github" />
-              <p className={styles.project_name}>Sticky Notes</p>
+              <p className={styles.project_name}>
+                <a
+                  href="https://github.com/priyasarpate/sticky-notes"
+                  target="_blank"
+                  className={styles.link}
+                >
+                  Sticky Notes
+                </a>
+              </p>
               <span className={styles.twitter_user}>github.com</span>
             </div>
           </div>
@@ -117,7 +185,10 @@ function Cards() {
         <div className={styles.card}>
           <div className={styles.dribble}>
             <div className={styles.dribble_header}>
-              <SocialIcon network="dribbble" />
+              <SocialIcon
+                network="dribbble"
+                url="https://dribbble.com/Gunpriya"
+              />
               <button className={styles.dribble_follow}>follow</button>
             </div>
             <p>Dribble</p>
@@ -140,12 +211,12 @@ function Cards() {
 
         <div className={styles.card}>
           <div className={styles.linkedin}>
-            <SocialIcon url="https://linkedin.com/in/jaketrent" />
+            <SocialIcon url="https://www.linkedin.com/in/priyasarpate/" />
             <p>LinkedIn</p>
             <span className={styles.twitter_user}>LinkedIn.com</span>
             <br />
           </div>
-        </div>     
+        </div>
       </div>
     </main>
   );

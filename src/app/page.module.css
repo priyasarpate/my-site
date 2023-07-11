@@ -19,6 +19,10 @@
   grid-area: main;
   background-color: white;
 }
+.link {
+  text-decoration: none;
+  color: black;
+}
 
 /* top cards  */
 .main_overview {
@@ -74,6 +78,11 @@
   line-height: 0px;
   color: darkgray;
   font-size: small;
+}
+.twitter_link {
+  text-decoration: none;
+  color: darkgray;
+
 }
 .twitter_btn {
   border-radius: 9999px;
@@ -341,23 +350,23 @@
   .card:nth-child(3) {
     grid-area: card3;
   }
-  .beautify{
+  .beautify {
     width: 280px;
   }
-  .visuals{
+  .visuals {
     width: 220px;
   }
-  .projects{
+  .projects {
     display: flex;
   }
-  .github_projects{
+  .github_projects {
     width: 70px;
     /* margin: 10px; */
   }
-  .dribble{
+  .dribble {
     width: 280px;
   }
-  .linkedin{
+  .linkedin {
     width: 280px;
     margin-bottom: 300px;
   }
