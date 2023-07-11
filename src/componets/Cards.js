@@ -36,7 +36,16 @@ function Cards() {
               </a>
             </span>
             <button className={styles.twitter_btn}>
-              <b>follow</b> 1.1k
+              <b>
+                <a
+                  href="https://twitter.com/priyasarpate"
+                  target="_blank"
+                  className={styles.figma_link}
+                >
+                  follow
+                </a>
+              </b>{" "}
+              1.1k
             </button>
           </div>
 
@@ -53,7 +62,16 @@ function Cards() {
               </a>
             </span>
             <br />
-            <button className={styles.github_btn}>follow</button>
+            <button className={styles.github_btn}>
+              {" "}
+              <a
+                href="https://twitter.com/priyasarpate"
+                target="_blank"
+                className={styles.link}
+              >
+                follow
+              </a>
+            </button>
           </div>
         </div>
         <div className={styles.coraline_card}>
@@ -189,7 +207,16 @@ function Cards() {
                 network="dribbble"
                 url="https://dribbble.com/Gunpriya"
               />
-              <button className={styles.dribble_follow}>follow</button>
+              <button className={styles.dribble_follow}>
+                <a
+                  href="https://dribbble.com/Gunpriya"
+                  target="_blank"
+                  className={styles.figma_link}
+                >
+                  {" "}
+                  follow
+                </a>
+              </button>
             </div>
             <p>Dribble</p>
             <div className={styles.dribble_gallery}>
