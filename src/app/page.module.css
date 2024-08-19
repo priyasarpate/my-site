@@ -1,377 +1,40 @@
-.grid_container {
-  display: grid;
-  grid-template-columns: 350px 1fr;
-  grid-template-rows: 50px 1fr 50px;
-  grid-template-areas:
-    "aside main"
-    "aside main"
-    "aside main";
-  height: 100vh;
-  margin-top: 50px;
-}
-.aside {
-  grid-area: aside;
-  background-color: white;
-  margin-left: 50px;
-  padding-right: 50px;
-}
 .main {
-  grid-area: main;
-  background-color: white;
-}
-.link {
-  text-decoration: none;
-  color: black;
+  margin: 50px;
+  padding: 50px;
 }
 
-/* top cards  */
-.main_overview {
-  display: grid;
-  grid-template-columns: 200px 450px 200px;
-}
-
-/* .social_card {
-} */
-.coraline_card {
-  border: 1px solid black;
-  margin: 10px;
-  border-radius: 10px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px #ccc;
-  padding: 20px;
-}
-.library_cards {
-  width: auto;
-  height: 200px;
-  border: 1px solid black;
+.descriptionTitle {
   margin-top: 50px;
-  border-radius: 10px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px #ccc;
-}
-.coraline_github {
-  width: auto;
-  height: 150px;
-  display: grid;
-  place-items: center;
-  margin-top: 20px;
-  margin-left: 20px;
 }
 
-.blogs_card {
-  text-decoration: none;
-}
-.twitter {
-  width: auto;
-  height: 150px;
-  border: 0.1px solid whitesmoke;
-  box-shadow: 0 0 20px white;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-  background-color: aliceblue;
-}
-.twitter_name {
-  line-height: 0px;
-}
-.twitter_user {
-  line-height: 0px;
-  color: darkgray;
-  font-size: small;
-}
-.twitter_link {
-  text-decoration: none;
-  color: darkgray;
-}
-.twitter_btn {
-  border-radius: 9999px;
-  padding: 8px 25px;
-  background-color: rgb(29, 155, 240);
-  border: 1px solid rgb(29, 155, 240);
-  color: white;
-  text-align: center;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 700;
-  margin-top: 10px;
-}
-
-.github {
-  width: auto;
-  height: 150px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px whitesmoke;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-  background-color: white;
-}
-.github_btn {
-  padding: 5px 25px;
-  margin-top: 10px;
-}
-.hash {
-  width: auto;
-  height: 150px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px whitesmoke;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-  background-color: white;
-  text-decoration: none;
-}
-.links {
-  color: black;
-  text-decoration: none;
-}
-.hash_com {
-  color: gray;
-  font-size: small;
-}
-.hash_icon {
-  width: 50px;
-  height: 50px;
-  color: blue;
-}
-
-.main_cards {
-  margin: 10px;
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  grid-template-rows: 200px 300px;
-  grid-template-areas:
-    "card3 card1"
-    "card2 card1";
-  grid-gap: 20px;
-}
-.card {
-  border-radius: 4px;
-}
-.card:first-child {
-  grid-area: card1;
-}
-.card:nth-child(2) {
-  grid-area: card2;
-}
-.card:nth-child(3) {
-  grid-area: card3;
-}
-.beautify_heading {
-  color: rgb(29, 155, 240);
-}
-.beautify {
-  border: 1px solid black;
-  padding: 20px;
-  border-radius: 10px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px #ccc;
-  width: 520px;
-}
-.beautify_header {
-  display: flex;
-  justify-content: space-between;
-}
-.figma_icon {
-  width: 50px;
-  height: 50px;
-}
-.figma_link {
-  color: white;
-  text-decoration: none;
-}
-.behnace_shot {
-  width: 100px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  border: 0.1px solid rgb(225, 219, 219);
-  padding: 20px;
-  width: auto;
-  box-shadow: 0 0 2px whitesmoke;
-}
-.visuals {
-  width: 500px;
-  height: 150px;
-}
-.figma_btn {
-  height: 30px;
-  padding: 5px 30px;
-  background-color: rgb(29, 155, 240);
-  border: 1px solid rgb(29, 155, 240);
-  color: white;
-  border-radius: 20px;
-}
-.projects {
+.routes {
   display: flex;
 }
-.github_projects {
-  width: 150px;
-  height: 150px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px #f8ebf1;
-  border-radius: 10px;
-  margin: 10px;
-  margin-top: 20px;
-  padding: 10px;
-  background-color: white;
+
+.routesItems {
+  margin-right: 10px;
+  text-decoration: none;
+  color: inherit;
+  position: relative; 
 }
 
-.linkedin {
-  padding: 20px;
-  background-color: aliceblue;
-  border-radius: 10px;
-  height: 158px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px whitesmoke;
-  line-height: 10px;
+.routesItems:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor; /* Inherits color of the link */
 }
 
-.dribble {
-  padding: 20px;
-  background-color: #f8ebf1;
-  border-radius: 10px;
-  height: 200px;
-  border: 0.1px solid rgb(225, 219, 219);
-  box-shadow: 0 0 2px whitesmoke;
-  color: black;
-}
-.dribble_follow {
-  background-color: #d15584;
-  height: 30px;
-  border: #d15584;
-  color: white;
-  border-radius: 10px;
-}
-.dribble_header {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-.dribble_gallery {
-  border: 1px black;
-  display: flex;
-  flex-wrap: wrap;
-}
-.shots {
-  width: 100px;
-  height: 50px;
-  border: 1px solid aliceblue;
-}
-.d_images {
-  width: 100px;
-  height: 50px;
-}
-.profile {
-  border-radius: 100%;
-  width: 200px;
-  height: 200px;
+.hr {
+  border: 0;
+  margin-top: 60px;
+  height: 1px;
+  background-color: whitesmoke;
 }
 
-@media (max-width: 460px) {
-  .grid_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-      "aside "
-      "main "
-      "main";
-    height: 100vh;
-    margin-top: 50px;
-  }
-  .aside {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-  }
-  .main_overview {
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-  }
-  .social_card {
-    display: grid;
-    grid-template-columns: 170px 170px;
-    margin-top: 30px;
-    place-items: center;
-  }
-  .twitter {
-    width: 110px;
-    height: auto;
-  }
-  .twitter_btn {
-    font-size: x-small;
-  }
-  .github {
-    width: 110px;
-    height: auto;
-  }
-  .github_btn {
-    padding: 5px 12px;
-    border: 1px gray;
-    border-radius: 3px;
-  }
-  .blogs_card {
-    display: grid;
-    grid-template-columns: 170px 170px;
-    place-items: center;
-  }
-  .coraline_card {
-    width: 280px;
-  }
-  .coraline_github {
-    width: 220px;
-  }
-  .main_cards {
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-      "card1"
-      "card2"
-      "card3";
-    grid-gap: 20px;
-    height: auto;
-    place-items: center;
-  }
-  .card {
-    border-radius: 4px;
-  }
-  .card:first-child {
-    grid-area: card1;
-  }
-  .card:nth-child(2) {
-    grid-area: card2;
-  }
-  .card:nth-child(3) {
-    grid-area: card3;
-  }
-  .beautify {
-    width: 280px;
-  }
-  .visuals {
-    width: 220px;
-  }
-  .projects {
-    display: flex;
-  }
-  .github_projects {
-    width: 70px;
-    /* margin: 10px; */
-  }
-  .dribble {
-    width: 280px;
-  }
-  .linkedin {
-    width: 280px;
-    margin-bottom: 300px;
-  }
+.blogTitle {
+  /* Add any styles for your blog title here */
 }
