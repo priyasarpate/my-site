@@ -25,4 +25,14 @@
     height: 1px;
     background-color: whitesmoke;
   }
+  @media (max-width: 768px) {
+    .routes {
+      margin: 0px;
+      padding: 0;
+    }
   
+    .routesItems {
+      margin: 3px;
+      font-size: 14px;
+    }
+  }
